@@ -1,0 +1,44 @@
+﻿TORILO ACADEMY REFUND POLICY
+
+DOCUMENT STATUS
+Authority: Synthetic project document
+Status: Approved for capstone demonstration
+Document Type: Student Policy
+
+PURPOSE
+
+This document provides project-level guidance concerning student refund requests.
+
+REFUND REQUESTS
+
+Students who wish to ask about a refund should contact the appropriate academy support or programme administration channel.
+
+A student should provide sufficient information about the course and payment when requesting assistance with a refund.
+
+REFUND ELIGIBILITY
+
+Refund eligibility should be determined according to the applicable academy refund procedure.
+
+The chatbot must not promise that a refund will be approved unless the applicable policy clearly supports that conclusion.
+
+REFUND PROCESSING
+
+Questions about the status of a refund request should be directed to the appropriate academy support or programme administration channel.
+
+The chatbot should not invent a refund processing period that is not contained in the approved knowledge base.
+
+REFUND ARRIVAL
+
+Students should not be given a specific refund arrival date unless an approved academy document provides such information.
+
+Students with questions about when a refund will arrive should contact the appropriate academy support channel.
+
+REFUND QUESTIONS
+
+Students who are uncertain about refund eligibility, processing or status should contact the appropriate academy support or programme administration channel.
+
+POLICY LIMITATION
+
+This is a synthetic project document created for the Torilo Academy AI Engineering Student Assistant Chatbot capstone demonstration.
+
+It should not be presented as an official published Torilo Academy refund policy unless official documentation is subsequently provided.

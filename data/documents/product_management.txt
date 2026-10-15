@@ -1,0 +1,60 @@
+﻿TORILO ACADEMY PRODUCT MANAGEMENT PROGRAMME
+
+DOCUMENT STATUS
+
+Authority: User-confirmed and synthetic project information
+Status: Approved for capstone demonstration
+Document Type: Programme Information
+
+IMPORTANT NOTE
+
+This document contains user-confirmed and synthetic project information created for the Torilo Academy AI Engineering Student Assistant capstone. Torilo Academy may replace the synthetic information with its actual programme information before production use.
+
+PROGRAMME NAME
+
+Product Management
+
+PROGRAMME DURATION
+
+The Product Management programme runs for 12 weeks.
+
+PROGRAMME DESCRIPTION
+
+Product Management focuses on planning, developing, launching and improving digital products.
+
+Students learn how to understand customer needs, define product requirements, prioritize features, work with development and design teams, and evaluate product performance.
+
+PROGRAMME TOPICS
+
+The Product Management programme covers:
+
+- Introduction to Product Management
+- Product Strategy
+- Customer Research
+- User Personas
+- Product Discovery
+- Requirements Gathering
+- Product Roadmapping
+- Feature Prioritization
+- Agile Product Development
+- Working with Engineering and Design Teams
+- Product Metrics and Analytics
+- Product Launch and Growth
+
+LEARNING FORMATS
+
+The Product Management programme is available in all three academy learning formats:
+
+- Physical classes
+- Online classes
+- Hybrid classes
+
+SUITABILITY
+
+Students who are interested in managing digital products, understanding customer needs, defining product requirements, planning product development and coordinating product teams may consider the Product Management programme.
+
+The programme is particularly suitable for students who want to focus on managing products rather than primarily building software.
+
+KNOWLEDGE LIMITATION
+
+This document does not provide information about the next Product Management cohort date.

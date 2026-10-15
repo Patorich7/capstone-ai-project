@@ -1,0 +1,739 @@
+﻿import gradio as gr
+
+from app.main import ToriloAcademyChatbot
+
+
+# ============================================================
+# TORILO ACADEMY CHATBOT LOGIC
+# ============================================================
+
+def chat_with_student(message, history, chatbot_state):
+    """
+    Process a student's question using the existing
+    Torilo Academy chatbot engine.
+    """
+
+    if not message or not message.strip():
+        return "Please enter a question.", chatbot_state
+
+    # Keep chatbot memory isolated for each browser session.
+    if chatbot_state is None:
+        chatbot_state = ToriloAcademyChatbot(
+            top_k=3,
+            max_memory_turns=3
+        )
+
+    try:
+        result = chatbot_state.answer(message.strip())
+
+        answer = result["answer"]
+        source = result["source"]
+
+        if isinstance(source, list):
+            source_text = ", ".join(source)
+        else:
+            source_text = str(source)
+
+        response = (
+            f"{answer}\n\n"
+            f"**Source:** {source_text}"
+        )
+
+        return response, chatbot_state
+
+    except Exception as error:
+        print(f"Chatbot error: {error}")
+
+        return (
+            "Sorry, I encountered an error while "
+            "processing your question.",
+            chatbot_state
+        )
+
+
+# ============================================================
+# ACADEMIC OFF-WHITE / SOFT SAGE DESIGN
+# ============================================================
+
+CUSTOM_CSS = """
+
+/* ============================================================
+   COLOR PALETTE
+
+   Warm Off-White: #F7F5EF
+   Soft Sage:      #8FA58A
+   Sage Dark:      #667762
+   Soft Charcoal:  #3F4540
+   Muted Text:     #70766F
+   White:          #FFFFFF
+   Soft Border:    #E5E2D9
+   ============================================================ */
+
+
+/* ============================================================
+   MAIN PAGE
+   ============================================================ */
+
+body {
+    background: #F7F5EF;
+}
+
+.gradio-container {
+    max-width: 1250px !important;
+
+    margin: auto !important;
+
+    padding: 24px !important;
+
+    background: #F7F5EF !important;
+}
+
+
+/* ============================================================
+   ACADEMY HEADER
+   ============================================================ */
+
+.torilo-hero {
+    background: #F7F5EF;
+
+    border: 1px solid #E5E2D9;
+
+    border-radius: 24px;
+
+    padding: 42px 45px;
+
+    margin-bottom: 22px;
+
+    text-align: center;
+
+    box-shadow:
+        0 6px 20px rgba(63, 69, 64, 0.05);
+}
+
+
+/* ============================================================
+   SMALL ACADEMY LABEL
+   ============================================================ */
+
+.hero-kicker {
+    display: inline-block;
+
+    color: #667762;
+
+    border: 1px solid #C8D1C3;
+
+    background: #EEF2EB;
+
+    padding: 7px 18px;
+
+    border-radius: 999px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 17px;
+}
+
+
+/* ============================================================
+   MAIN TITLE
+   ============================================================ */
+
+.hero-title {
+    margin: 0;
+
+    color: #3F4540;
+
+    font-size: 40px;
+
+    line-height: 1.2;
+
+    font-weight: 800;
+
+    letter-spacing: -0.5px;
+}
+
+
+/* ============================================================
+   SUBTITLE
+   ============================================================ */
+
+.hero-subtitle {
+    margin-top: 13px;
+
+    color: #667762;
+
+    font-size: 22px;
+
+    line-height: 1.4;
+
+    font-weight: 650;
+}
+
+
+/* ============================================================
+   HERO DESCRIPTION
+   ============================================================ */
+
+.hero-caption {
+    max-width: 760px;
+
+    margin: 14px auto 0 auto;
+
+    color: #70766F;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+}
+
+
+/* ============================================================
+   THIN ACADEMIC ACCENT
+   ============================================================ */
+
+.accent-line {
+    width: 70px;
+
+    height: 4px;
+
+    background: #8FA58A;
+
+    border-radius: 10px;
+
+    margin: 20px auto 0 auto;
+}
+
+
+/* ============================================================
+   INSPIRATION BOX
+   ============================================================ */
+
+.inspiration-box {
+    background: #FFFFFF;
+
+    border: 1px solid #E5E2D9;
+
+    border-radius: 18px;
+
+    padding: 20px 25px;
+
+    margin-bottom: 24px;
+
+    text-align: center;
+
+    box-shadow:
+        0 5px 16px rgba(63, 69, 64, 0.04);
+}
+
+.inspiration-box .quote {
+    color: #667762;
+
+    font-size: 19px;
+
+    font-weight: 700;
+
+    line-height: 1.5;
+}
+
+.inspiration-box .small-text {
+    margin-top: 7px;
+
+    color: #70766F;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* ============================================================
+   INFORMATION CARDS
+   ============================================================ */
+
+.info-card {
+    background: #FFFFFF;
+
+    border: 1px solid #E5E2D9;
+
+    border-radius: 18px;
+
+    padding: 21px;
+
+    min-height: 125px;
+
+    box-shadow:
+        0 5px 17px rgba(63, 69, 64, 0.045);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 9px 22px rgba(63, 69, 64, 0.08);
+}
+
+
+/* ============================================================
+   CARD ICONS
+   ============================================================ */
+
+.info-icon {
+    color: #8FA58A;
+
+    font-size: 27px;
+
+    margin-bottom: 8px;
+}
+
+
+/* ============================================================
+   CARD HEADINGS
+   ============================================================ */
+
+.info-card h3 {
+    margin: 0 0 7px 0;
+
+    color: #3F4540;
+
+    font-size: 17px;
+
+    font-weight: 750;
+}
+
+
+/* ============================================================
+   CARD TEXT
+   ============================================================ */
+
+.info-card p {
+    margin: 0;
+
+    color: #70766F;
+
+    font-size: 14px;
+
+    line-height: 1.55;
+}
+
+
+/* ============================================================
+   CHAT SECTION
+   ============================================================ */
+
+.chat-section-title {
+    margin-top: 31px;
+
+    color: #3F4540;
+
+    font-size: 24px;
+
+    font-weight: 800;
+}
+
+.chat-section-description {
+    color: #70766F;
+
+    font-size: 14px;
+
+    margin-top: 5px;
+
+    margin-bottom: 15px;
+}
+
+
+/* ============================================================
+   CHAT WINDOW
+   ============================================================ */
+
+#chatbot {
+    border-radius: 20px !important;
+
+    border: 1px solid #E5E2D9 !important;
+
+    box-shadow:
+        0 7px 22px rgba(63, 69, 64, 0.05) !important;
+
+    overflow: hidden;
+}
+
+
+/* ============================================================
+   TEXT INPUT
+   ============================================================ */
+
+textarea {
+    border-radius: 15px !important;
+
+    border: 1px solid #D5D9D1 !important;
+
+    background: #FFFFFF !important;
+
+    color: #3F4540 !important;
+
+    font-size: 15px !important;
+
+    padding: 14px !important;
+}
+
+textarea:focus {
+    border-color: #8FA58A !important;
+
+    box-shadow:
+        0 0 0 3px rgba(143, 165, 138, 0.13) !important;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.torilo-footer {
+    text-align: center;
+
+    padding: 25px 10px 10px;
+
+    color: #70766F;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+.torilo-footer strong {
+    color: #667762;
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 768px) {
+
+    .gradio-container {
+        padding: 10px !important;
+    }
+
+    .torilo-hero {
+        padding: 32px 22px;
+
+        border-radius: 20px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-subtitle {
+        font-size: 19px;
+    }
+
+    .hero-caption {
+        font-size: 14px;
+    }
+
+    .inspiration-box .quote {
+        font-size: 17px;
+    }
+}
+
+"""
+
+
+# ============================================================
+# BUILD APPLICATION
+# ============================================================
+
+with gr.Blocks(
+    title="Torilo Academy | AI Engineering Student Assistant",
+    css=CUSTOM_CSS
+) as demo:
+
+    # ========================================================
+    # HERO / ACADEMY INTRODUCTION
+    # ========================================================
+
+    gr.HTML(
+        """
+        <div class="torilo-hero">
+
+            <div class="hero-kicker">
+                ðŸŽ“ TORILO ACADEMY
+            </div>
+
+            <h1 class="hero-title">
+                AI Engineering Student Assistant
+            </h1>
+
+            <div class="hero-subtitle">
+                Learn Today. Build Tomorrow.
+                Shape Your Future.
+            </div>
+
+            <div class="hero-caption">
+                Your journey to practical skills,
+                professional growth, and a brighter
+                future starts here. Explore our courses,
+                ask questions, and discover opportunities
+                to develop your knowledge and skills.
+            </div>
+
+            <div class="accent-line"></div>
+
+        </div>
+        """
+    )
+
+
+    # ========================================================
+    # INSPIRATIONAL MESSAGE
+    # ========================================================
+
+    gr.HTML(
+        """
+        <div class="inspiration-box">
+
+            <div class="quote">
+                Your next great skill could be
+                the beginning of your next great opportunity.
+            </div>
+
+            <div class="small-text">
+                Explore. Learn. Practice. Grow.
+                Your future starts with what you learn today.
+            </div>
+
+        </div>
+        """
+    )
+
+
+    # ========================================================
+    # INFORMATION CARDS
+    # ========================================================
+
+    with gr.Row():
+
+        with gr.Column():
+
+            gr.HTML(
+                """
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        ðŸ“š
+                    </div>
+
+                    <h3>
+                        Explore Courses
+                    </h3>
+
+                    <p>
+                        Discover available courses,
+                        durations, categories and fees.
+                    </p>
+
+                </div>
+                """
+            )
+
+
+        with gr.Column():
+
+            gr.HTML(
+                """
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        ðŸš€
+                    </div>
+
+                    <h3>
+                        Build Your Skills
+                    </h3>
+
+                    <p>
+                        Ask about learning,
+                        assignments, assessments
+                        and practical development.
+                    </p>
+
+                </div>
+                """
+            )
+
+
+        with gr.Column():
+
+            gr.HTML(
+                """
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        ðŸŽ¯
+                    </div>
+
+                    <h3>
+                        Stay on Track
+                    </h3>
+
+                    <p>
+                        Get information about attendance,
+                        student procedures and support.
+                    </p>
+
+                </div>
+                """
+            )
+
+
+        with gr.Column():
+
+            gr.HTML(
+                """
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        ðŸ’³
+                    </div>
+
+                    <h3>
+                        Payment Information
+                    </h3>
+
+                    <p>
+                        Ask about payment and refund
+                        information in the knowledge base.
+                    </p>
+
+                </div>
+                """
+            )
+
+
+    # ========================================================
+    # CHAT SECTION
+    # ========================================================
+
+    gr.HTML(
+        """
+        <div>
+
+            <div class="chat-section-title">
+                ðŸ’¬ Ask Your AI Student Assistant
+            </div>
+
+            <div class="chat-section-description">
+                Have a question? Ask below and the assistant
+                will search the Torilo Academy knowledge base
+                for relevant information.
+            </div>
+
+        </div>
+        """
+    )
+
+
+    # ========================================================
+    # SESSION MEMORY
+    # ========================================================
+
+    chatbot_state = gr.State(value=None)
+
+
+    # ========================================================
+    # CHAT INTERFACE
+    # ========================================================
+
+    chatbot_ui = gr.ChatInterface(
+
+        fn=chat_with_student,
+
+     additional_inputs=[
+         chatbot_state
+     ],
+
+     additional_outputs=[
+         chatbot_state
+     ],
+
+        title="",
+
+        description="",
+
+        textbox=gr.Textbox(
+
+            placeholder=(
+                "Ask something about Torilo Academy..."
+            ),
+
+            container=True,
+
+            lines=2,
+
+            max_lines=5,
+
+            autofocus=True
+        ),
+
+        examples=[
+            ["How much is Software Engineering?"],
+            ["How long is it?"],
+            [
+                "What courses are available "
+                "in Design and Creative?"
+            ],
+            ["What is the attendance policy?"],
+            ["What is the assessment policy?"],
+            ["What is the refund policy?"],
+            ["What support is available to students?"],
+            ["What is today's weather?"],
+        ],
+
+        cache_examples=False,
+
+        show_progress="minimal"
+    )
+
+
+    # ========================================================
+    # FOOTER
+    # ========================================================
+
+    gr.HTML(
+        """
+        <div class="torilo-footer">
+
+            <strong>
+                Torilo Academy AI Engineering Student Assistant
+            </strong>
+
+            <br>
+
+            Learn today. Build tomorrow.
+            Shape your future.
+
+            <br>
+
+            Answers are generated from the
+            academy knowledge base.
+
+        </div>
+        """
+    )
+
+
+# ============================================================
+# LAUNCH
+# ============================================================
+
+if __name__ == "__main__":
+    demo.launch()

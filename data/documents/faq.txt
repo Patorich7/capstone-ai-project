@@ -1,0 +1,68 @@
+﻿TORILO ACADEMY FREQUENTLY ASKED QUESTIONS
+
+DOCUMENT STATUS
+Authority: Synthetic project document
+Status: Approved for capstone demonstration
+Document Type: Frequently Asked Questions
+
+Q1. What courses are available at Torilo Academy?
+
+A1. The approved course catalog contains 14 courses across Software and Cloud, Data and Business, Design and Creative, and Digital Marketing.
+
+Q2. How much does Software Engineering/Development cost?
+
+A2. The approved course catalog lists Software Engineering/Development at ₦250,000 for 12 weeks.
+
+Q3. How long is Frontend Web Development?
+
+A3. The approved course catalog lists Frontend Web Development as a 10-week course with a fee of ₦150,000.
+
+Q4. How long is Cloud Computing?
+
+A4. The approved course catalog lists Cloud Computing as an 8-week course with a fee of ₦180,000.
+
+Q5. How much does Data Analytics cost?
+
+A5. The approved course catalog lists Data Analytics at ₦200,000 for 10 weeks.
+
+Q6. How much does Project Management cost?
+
+A6. The approved course catalog lists Project Management at ₦300,000 for 12 weeks.
+
+Q7. What should I do if I cannot attend a class?
+
+A7. Students who are unable to attend a scheduled learning session should notify the appropriate academy support or programme channel as soon as reasonably possible.
+
+Q8. What should I do if I have difficulty meeting an assessment deadline?
+
+A8. Students who expect difficulty meeting an assessment deadline should contact the appropriate instructor or academy support channel as soon as reasonably possible.
+
+Q9. How do I ask about a refund?
+
+A9. Students with refund questions should contact the appropriate academy support or programme administration channel.
+
+Q10. What should I do if I have a question that the chatbot cannot answer?
+
+A10. The student should be directed to the appropriate academy support channel. The chatbot should not invent information that is not contained in the approved knowledge base.
+
+Q11. Where should I ask questions about my individual attendance record?
+
+A11. Questions concerning an individual attendance record should be directed to the appropriate academy support channel.
+
+Q12. Where can I get help with learning difficulties?
+
+A12. Students experiencing difficulty with learning materials or learning activities should contact their instructor or the appropriate academy support channel.
+
+Q13. Where can I ask about payment status?
+
+A13. Questions concerning payment status should be directed to the appropriate academy support or programme administration channel.
+
+Q14. Can the chatbot invent a course fee if the fee is not in the course catalog?
+
+A14. No. The chatbot should use the approved course catalog and must not invent or modify course fees that are not contained in the approved knowledge base.
+
+FAQ LIMITATION
+
+This is a synthetic project document created for the Torilo Academy AI Engineering Student Assistant Chatbot capstone demonstration.
+
+It should not be presented as an official published Torilo Academy FAQ unless official documentation is subsequently provided.

@@ -1,0 +1,61 @@
+﻿TORILO ACADEMY OVERVIEW
+
+DOCUMENT STATUS
+
+Authority: User-supplied and synthetic project information
+Status: Approved for capstone demonstration
+Document Type: Academy Overview
+
+IMPORTANT NOTE
+
+Some information in this document is synthetic project information created for the Torilo Academy AI Engineering Student Assistant capstone. Torilo Academy may replace the synthetic information with its actual institutional information before production use.
+
+ABOUT TORILO ACADEMY
+
+Torilo Academy is a technology training institution in Nigeria that helps people build practical digital skills for careers in the technology industry.
+
+CORE TRAINING AREAS
+
+Torilo Academy provides technology and digital skills training in areas including:
+
+- Software Development
+- Product Design (UI/UX)
+- Data Analysis
+- Cloud Computing
+- Digital Marketing
+- Graphic Design
+- Motion Graphics
+- Web Design
+- AI Engineering
+- Product Management
+
+LEARNING FORMATS
+
+Torilo Academy provides learning through three formats:
+
+- Physical classes
+- Online classes
+- Hybrid classes
+
+These learning formats are designed to support students, career switchers, entrepreneurs and working professionals.
+
+CAREER SUPPORT
+
+Career support may include:
+
+- Hands-on mentorship
+- Internship opportunities
+- LinkedIn profile optimization
+- Professional headshots
+
+CAMPUSES
+
+Ikeja Campus:
+Torilo Academy is headquartered and operates a campus in Ikeja, Lagos.
+
+VGC Lekki Campus:
+Torilo Academy operates a branch in Victoria Garden City (VGC), Lekki, Lagos.
+
+KNOWLEDGE LIMITATION
+
+This document does not provide information about an Abuja campus, student accommodation, specific upcoming cohort dates, or the identity of any current President of Torilo Academy.

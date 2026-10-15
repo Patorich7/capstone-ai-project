@@ -1,0 +1,46 @@
+﻿TORILO ACADEMY PAYMENT POLICY
+
+DOCUMENT STATUS
+Authority: Synthetic project document
+Status: Approved for capstone demonstration
+Document Type: Student Policy
+
+PURPOSE
+
+This document provides project-level guidance concerning course fees and student payments.
+
+COURSE FEES
+
+Course fees should be determined from the approved Torilo Academy course catalog contained in the chatbot knowledge base.
+
+The chatbot should use the approved course catalog when answering questions about course fees.
+
+The chatbot must not invent or modify course fees that are not contained in the approved course catalog.
+
+PAYMENT INFORMATION
+
+Students who have questions about payment procedures should contact the appropriate academy support or programme administration channel.
+
+Students should confirm payment instructions before making a payment.
+
+PAYMENT CONFIRMATION
+
+Students should retain evidence of payment where applicable.
+
+Questions concerning whether a payment has been received or recorded should be directed to the appropriate academy support or programme administration channel.
+
+PAYMENT QUESTIONS
+
+Students who are uncertain about a course fee, payment instruction or payment status should contact the appropriate academy support channel.
+
+The chatbot should provide course fee information from the approved course catalog and should not invent payment instructions.
+
+REFUND-RELATED QUESTIONS
+
+Questions concerning refunds should be handled using the approved refund policy contained in the chatbot knowledge base.
+
+POLICY LIMITATION
+
+This is a synthetic project document created for the Torilo Academy AI Engineering Student Assistant Chatbot capstone demonstration.
+
+It should not be presented as an official published Torilo Academy payment policy unless official documentation is subsequently provided.

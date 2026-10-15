@@ -1,0 +1,296 @@
+| Course                                  | Instructor                 | Duration |      Fee |
+| --------------------------------------- | -------------------------- | -------: | -------: |
+| Cloud Computing                         | **Engr. Daniel Okafor**    |  8 weeks | ₦180,000 |
+| Data Analytics                          | **Dr. Amaka Nwosu**        | 10 weeks | ₦200,000 |
+| Digital Marketing                       | **Mr. Tunde Adeyemi**      | 10 weeks | ₦250,000 |
+| Forex, Stock Trading and Cryptocurrency | **Mr. Michael Adebayo**    |  8 weeks | ₦200,000 |
+| Frontend Web Development                | **Engr. David Eze**        | 10 weeks | ₦150,000 |
+| Graphic Design                          | **Mrs. Chioma Okeke**      |  8 weeks | ₦160,000 |
+| Microsoft Office                        | **Mr. Samuel Ibrahim**     |  8 weeks | ₦200,000 |
+| Motion Graphics                         | **Mr. Victor Chukwu**      |  8 weeks | ₦160,000 |
+| Product Design                          | **Mrs. Adaobi Nnamani**    |  8 weeks | ₦160,000 |
+| Project Management                      | **Dr. Ibrahim Musa**       | 12 weeks | ₦300,000 |
+| Software Engineering/Development        | **Engr. Patrick Williams** | 12 weeks | ₦250,000 |
+| Software Testing/Quality Assurance      | **Mrs. Grace Johnson**     |  8 weeks | ₦200,000 |
+| Supply Chain Management                 | **Mr. Emeka Obi**          | 10 weeks | ₦250,000 |
+| Web Design                              | **Mr. Femi Balogun**       |  8 weeks | ₦160,000 |
+TORILO ACADEMY COURSE CATALOG
+
+DOCUMENT STATUS
+Authority: Torilo Academy supplied course information
+Status: Approved project information
+Document Type: Course Catalog
+
+
+SOFTWARE AND CLOUD
+
+1. Software Engineering/Development
+Duration: 12 weeks
+Fee: ₦250,000
+
+2. Frontend Web Development
+Duration: 10 weeks
+Fee: ₦150,000
+
+3. Cloud Computing
+Duration: 8 weeks
+Fee: ₦180,000
+
+4. Software Testing/Quality Assurance
+Duration: 8 weeks
+Fee: ₦200,000
+
+
+DATA AND BUSINESS
+
+5. Data Analytics
+Duration: 10 weeks
+Fee: ₦200,000
+
+6. Project Management
+Duration: 12 weeks
+Fee: ₦300,000
+
+7. Supply Chain Management
+Duration: 10 weeks
+Fee: ₦250,000
+
+8. Forex, Stock Trading and Cryptocurrency
+Duration: 8 weeks
+Fee: ₦200,000
+
+
+DESIGN AND CREATIVE
+
+9. Product Design
+Duration: 8 weeks
+Fee: ₦160,000
+
+10. Graphic Design
+Duration: 8 weeks
+Fee: ₦160,000
+
+11. Motion Graphics
+Duration: 8 weeks
+Fee: ₦160,000
+
+12. Web Design
+Duration: 8 weeks
+Fee: ₦160,000
+
+
+DIGITAL MARKETING
+
+13. Digital Marketing
+Duration: 10 weeks
+Fee: ₦250,000
+
+14. Microsoft Office
+Duration: 8 weeks
+Fee: ₦200,000
+
+
+IMPORTANT INFORMATION
+
+This document contains the approved course information supplied for the Torilo Academy AI Engineering Student Assistant Chatbot project.
+
+The chatbot should use this document when answering questions about available courses, course duration and course fees.
+
+The chatbot must not invent additional courses, fees or durations that are not contained in the approved knowledge base.
+
+ TORILO ACADEMY STUDENT HANDBOOK
+
+DOCUMENT STATUS
+Authority: Synthetic project document
+Status: Approved for capstone demonstration
+Document Type: Student Handbook
+
+PURPOSE
+
+This handbook provides general guidance for students participating in Torilo Academy programmes.
+
+STUDENT RESPONSIBILITIES
+
+Students are expected to:
+
+1. Participate actively in their programme.
+2. Attend scheduled learning sessions.
+3. Complete assigned learning activities.
+4. Complete assessments within the required periods.
+5. Follow applicable academy procedures.
+6. Treat instructors, staff and fellow students respectfully.
+7. Seek assistance when they encounter learning or administrative difficulties.
+8. Keep their student and payment information accurate.
+
+LEARNING PARTICIPATION
+
+Students should make reasonable efforts to participate in scheduled learning activities and follow the instructions provided by their instructors.
+
+Students who experience difficulties affecting their participation should contact the appropriate support channel.
+
+ASSESSMENTS
+
+Students are expected to complete assignments, tests, projects or other assessments associated with their programme.
+
+Students should follow the assessment instructions provided by their instructor or programme administrators.
+
+COMMUNICATION
+
+Students should use the designated academy communication and support channels when they need assistance.
+
+Students should provide sufficient information when reporting a problem so that support staff can understand and address the issue.
+
+ACADEMIC CONDUCT
+
+Students are expected to submit their own work and follow the academy's academic and student-conduct requirements.
+
+POLICY LIMITATION
+
+This document is a synthetic project document created for the Torilo Academy AI Engineering Student Assistant Chatbot capstone demonstration.
+
+It must not be represented as an actual published Torilo Academy policy unless official academy documentation is subsequently provided.
+
+ TORILO ACADEMY ATTENDANCE POLICY
+
+DOCUMENT STATUS
+Authority: Synthetic project document
+Status: Approved for capstone demonstration
+Document Type: Student Policy
+
+PURPOSE
+
+This document provides project-level guidance concerning student attendance.
+
+ATTENDANCE EXPECTATION
+
+Students are expected to attend scheduled classes, learning sessions and other programme activities applicable to their course.
+
+ATTENDANCE RECORDS
+
+Attendance may be recorded by the academy or programme instructor.
+
+Students should ensure that their attendance is properly recorded where an attendance process is provided.
+
+ABSENCE
+
+A student who is unable to attend a scheduled learning session should notify the appropriate academy support or programme channel as soon as reasonably possible.
+
+Students should provide a reason for an absence when requested.
+
+REPEATED ABSENCE
+
+Repeated absence may affect a student's ability to follow course content and complete learning activities.
+
+Students experiencing circumstances that may affect their continued participation should contact academy support.
+
+ATTENDANCE QUESTIONS
+
+For questions concerning a student's individual attendance record, the student should contact the appropriate academy support channel.
+
+POLICY LIMITATION
+
+This is a synthetic project document created for the Torilo Academy AI Engineering Student Assistant Chatbot capstone demonstration.
+
+It should not be presented as an official published Torilo Academy attendance policy unless official documentation is provided. 
+
+TORILO ACADEMY ASSESSMENT POLICY
+
+DOCUMENT STATUS
+Authority: Synthetic project document
+Status: Approved for capstone demonstration
+Document Type: Student Policy
+
+PURPOSE
+
+This document provides project-level guidance concerning student assessments.
+
+ASSESSMENT ACTIVITIES
+
+Students may be required to complete learning activities such as:
+
+1. Assignments
+2. Tests
+3. Practical exercises
+4. Projects
+5. Other programme-related assessments
+
+ASSESSMENT PARTICIPATION
+
+Students are expected to participate in assessments associated with their programme and follow the instructions provided by their instructor or programme administrator.
+
+SUBMISSION
+
+Students should submit assessments according to the instructions and submission procedures provided for their programme.
+
+Students should ensure that their submitted work is complete and submitted through the required channel.
+
+LATE SUBMISSIONS
+
+A student who expects difficulty meeting an assessment deadline should contact the appropriate instructor or academy support channel as soon as possible.
+
+The applicable instructor or programme administrator may provide further guidance concerning the situation.
+
+ASSESSMENT QUESTIONS
+
+Students who do not understand an assessment instruction should seek clarification from their instructor or the appropriate academy support channel.
+
+ACADEMIC INTEGRITY
+
+Students are expected to submit their own work and comply with applicable academic integrity requirements.
+
+Students should not misrepresent another person's work as their own.
+
+ASSESSMENT RESULTS
+
+Questions concerning individual assessment results should be directed to the appropriate instructor or academy support channel.
+
+POLICY LIMITATION
+
+This is a synthetic project document created for the Torilo Academy AI Engineering Student Assistant Chatbot capstone demonstration.
+
+It should not be presented as an official published Torilo Academy assessment policy unless official documentation is subsequently provided. 
+
+TORILO ACADEMY PAYMENT POLICY
+
+DOCUMENT STATUS
+Authority: Synthetic project document
+Status: Approved for capstone demonstration
+Document Type: Student Policy
+
+PURPOSE
+
+This document provides project-level guidance concerning programme payments.
+
+COURSE FEES
+
+The approved course catalogue contains the applicable course fees for the programmes offered in this project.
+
+Students should consult the course catalogue for the fee associated with a particular programme.
+
+PAYMENT INFORMATION
+
+Students are expected to follow the payment instructions provided through the designated academy payment or administrative channel.
+
+Students should retain evidence of successful payment where applicable.
+
+PAYMENT CONFIRMATION
+
+A student who has made a payment but has not received confirmation should contact the appropriate academy support or administrative channel.
+
+The student may be asked to provide relevant payment information or evidence of payment.
+
+PAYMENT QUESTIONS
+
+Questions concerning course fees should first be checked against the approved course catalogue.
+
+Questions concerning an individual student's payment status should be directed to the appropriate academy support or administrative channel.
+
+STUDENT PAYMENT RECORDS
+
+Students should keep their payment information and relevant transaction records secure and available when needed for administrative verification.
+
+POLICY LIMITATION
+
+This is a synthetic project document created for the Torilo Academy AI Engineering Student Assistant Chatbot capstone demonstration.
+
+It should not be presented as an official published Torilo Academy payment policy unless official documentation is subsequently provided.                                                                                                                                                                                                                                                                                                                            

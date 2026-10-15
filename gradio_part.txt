@@ -1,0 +1,180 @@
+﻿import gradio as gr
+
+from app.main import ToriloAcademyChatbot
+
+
+# ============================================================
+# TORILO ACADEMY CHATBOT LOGIC
+# ============================================================
+
+def chat_with_student(message, history, chatbot_state):
+    """
+    Process a student's question using the existing
+    Torilo Academy chatbot engine.
+    """
+
+    if not message or not message.strip():
+        return "Please enter a question.", chatbot_state
+
+    # Keep chatbot memory isolated for each browser session.
+    if chatbot_state is None:
+        chatbot_state = ToriloAcademyChatbot(
+            top_k=3,
+            max_memory_turns=3
+        )
+
+    try:
+        result = chatbot_state.answer(message.strip())
+
+        answer = result["answer"]
+        source = result["source"]
+
+        if isinstance(source, list):
+            source_text = ", ".join(source)
+        else:
+            source_text = str(source)
+
+        response = (
+            f"{answer}\n\n"
+            f"**Source:** {source_text}"
+        )
+
+        return response, chatbot_state
+
+    except Exception as error:
+        print(f"Chatbot error: {error}")
+
+        return (
+            "Sorry, I encountered an error while "
+            "processing your question.",
+            chatbot_state
+        )
+
+
+# ============================================================
+# ACADEMIC OFF-WHITE / SOFT SAGE DESIGN
+# ============================================================
+
+CUSTOM_CSS = """
+
+/* ============================================================
+   COLOR PALETTE
+
+   Warm Off-White: #F7F5EF
+   Soft Sage:      #8FA58A
+   Sage Dark:      #667762
+   Soft Charcoal:  #3F4540
+   Muted Text:     #70766F
+   White:          #FFFFFF
+   Soft Border:    #E5E2D9
+   ============================================================ */
+
+
+/* ============================================================
+   MAIN PAGE
+   ============================================================ */
+
+body {
+    background: #F7F5EF;
+}
+
+.gradio-container {
+    max-width: 1250px !important;
+
+    margin: auto !important;
+
+    padding: 24px !important;
+
+    background: #F7F5EF !important;
+}
+
+
+/* ============================================================
+   ACADEMY HEADER
+   ============================================================ */
+
+.torilo-hero {
+    background: #F7F5EF;
+
+    border: 1px solid #E5E2D9;
+
+    border-radius: 24px;
+
+    padding: 42px 45px;
+
+    margin-bottom: 22px;
+
+    text-align: center;
+
+    box-shadow:
+        0 6px 20px rgba(63, 69, 64, 0.05);
+}
+
+
+/* ============================================================
+   SMALL ACADEMY LABEL
+   ============================================================ */
+
+.hero-kicker {
+    display: inline-block;
+
+    color: #667762;
+
+    border: 1px solid #C8D1C3;
+
+    background: #EEF2EB;
+
+    padding: 7px 18px;
+
+    border-radius: 999px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 17px;
+}
+
+
+/* ============================================================
+   MAIN TITLE
+   ============================================================ */
+
+.hero-title {
+    margin: 0;
+
+    color: #3F4540;
+
+    font-size: 40px;
+
+    line-height: 1.2;
+
+    font-weight: 800;
+
+    letter-spacing: -0.5px;
+}
+
+
+/* ============================================================
+   SUBTITLE
+   ============================================================ */
+
+.hero-subtitle {
+    margin-top: 13px;
+
+    color: #667762;
+
+    font-size: 22px;
+
+    line-height: 1.4;
+
+    font-weight: 650;
+}
+
+
+/* ============================================================
+   HERO DESCRIPTION
+   ============================================================ */
+

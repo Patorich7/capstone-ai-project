@@ -1,0 +1,45 @@
+﻿TORILO ACADEMY ENROLLMENT REQUIREMENTS
+
+DOCUMENT STATUS
+
+Authority: Synthetic project information
+Status: Approved for capstone demonstration
+Document Type: Enrollment Requirements
+
+IMPORTANT NOTE
+
+This document contains synthetic project information created for the Torilo Academy AI Engineering Student Assistant capstone. The information is intended for demonstration purposes and may be replaced with actual Torilo Academy enrollment requirements before production use.
+
+GENERAL ENROLLMENT REQUIREMENTS
+
+Applicants wishing to enroll at Torilo Academy should:
+
+1. Complete the academy application or registration process.
+
+2. Provide accurate personal information, including full name, email address and phone number.
+
+3. Select the programme or course they wish to study.
+
+4. Meet any programme-specific prerequisite requirements where applicable.
+
+5. Provide a valid means of identification when requested.
+
+6. Complete the required registration and payment process before commencing the programme.
+
+7. Have access to a suitable learning device and internet connection for programmes or classes that require them.
+
+8. Provide accurate information during registration.
+
+9. Agree to follow applicable academy procedures, student policies and programme requirements.
+
+PROGRAMME-SPECIFIC REQUIREMENTS
+
+Some programmes may have additional requirements depending on the nature of the programme. Students should check the requirements applicable to their selected programme during registration.
+
+IMPORTANT
+
+The requirements in this document are synthetic project information and should not be presented as verified official Torilo Academy enrollment requirements.
+
+KNOWLEDGE LIMITATION
+
+The chatbot should not invent additional enrollment requirements that are not contained in this document.

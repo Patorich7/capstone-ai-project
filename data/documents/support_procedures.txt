@@ -1,0 +1,69 @@
+﻿TORILO ACADEMY SUPPORT PROCEDURES
+
+DOCUMENT STATUS
+Authority: Synthetic project document
+Status: Approved for capstone demonstration
+Document Type: Support Procedures
+
+PURPOSE
+
+This document provides project-level guidance concerning student support procedures.
+
+WHEN TO CONTACT SUPPORT
+
+Students should contact the appropriate academy support channel when they need assistance with matters such as:
+
+1. Course information
+2. Learning activities
+3. Assessments
+4. Attendance
+5. Payments
+6. Refund questions
+7. Programme participation
+8. Other academy-related concerns
+
+COURSE QUESTIONS
+
+Students who have questions about available courses, course duration or course fees should consult the approved course catalog or contact the appropriate academy support channel.
+
+The chatbot should use the approved course catalog when answering questions about course information.
+
+LEARNING SUPPORT
+
+Students who have difficulty understanding learning materials or learning activities should contact their instructor or the appropriate academy support channel.
+
+ASSESSMENT SUPPORT
+
+Students who do not understand an assessment instruction should seek clarification from their instructor or the appropriate academy support channel.
+
+Students who experience difficulty meeting an assessment deadline should contact the appropriate instructor or academy support channel as soon as reasonably possible.
+
+ATTENDANCE SUPPORT
+
+Students who are unable to attend a scheduled learning session should notify the appropriate academy support or programme channel as soon as reasonably possible.
+
+Questions concerning an individual attendance record should be directed to the appropriate academy support channel.
+
+PAYMENT SUPPORT
+
+Students who have questions about course fees, payment procedures or payment status should contact the appropriate academy support or programme administration channel.
+
+REFUND SUPPORT
+
+Students who have questions about refund eligibility, refund processing or refund status should contact the appropriate academy support or programme administration channel.
+
+ESCALATION
+
+If a student's question cannot be answered using the approved chatbot knowledge base, the student should be directed to the appropriate academy support channel.
+
+The chatbot should not invent information that is not contained in the approved knowledge base.
+
+SUPPORT REQUEST INFORMATION
+
+When contacting support, students should provide sufficient information about their question or concern to help the academy understand the issue.
+
+PROCEDURE LIMITATION
+
+This is a synthetic project document created for the Torilo Academy AI Engineering Student Assistant Chatbot capstone demonstration.
+
+It should not be presented as an official published Torilo Academy support procedure unless official documentation is subsequently provided.

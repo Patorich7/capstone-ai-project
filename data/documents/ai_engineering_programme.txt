@@ -1,0 +1,56 @@
+﻿TORILO ACADEMY AI ENGINEERING PROGRAMME
+
+DOCUMENT STATUS
+
+Authority: User-confirmed and synthetic project information
+Status: Approved for capstone demonstration
+Document Type: Programme Information
+
+IMPORTANT NOTE
+
+This document contains a combination of user-confirmed project information and synthetic curriculum information created for the Torilo Academy AI Engineering Student Assistant capstone. Torilo Academy may replace the synthetic information with its actual programme information before production use.
+
+PROGRAMME NAME
+
+AI Engineering
+
+PROGRAMME DURATION
+
+The AI Engineering programme runs for 4 months.
+
+PROGRAMME DESCRIPTION
+
+The AI Engineering programme is designed to help students develop practical skills for building artificial intelligence applications and systems.
+
+PROGRAMME TOPICS
+
+The AI Engineering programme covers:
+
+- Python Programming for AI
+- Mathematics and Statistics for AI
+- Data Processing and Analysis
+- Machine Learning Fundamentals
+- Supervised Learning
+- Unsupervised Learning
+- Deep Learning
+- Neural Networks
+- Natural Language Processing
+- Generative AI
+- Large Language Models (LLMs)
+- Prompt Engineering
+- Retrieval-Augmented Generation (RAG)
+- Vector Databases
+- Semantic Search
+- AI Agents and Tool Use
+- AI Application Development
+- Model Evaluation
+- AI Deployment
+- AI Engineering Projects
+
+SUITABILITY FOR STUDENTS INTERESTED IN AI
+
+Students interested in machine learning, Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and building practical AI applications may consider the AI Engineering programme.
+
+KNOWLEDGE LIMITATION
+
+This document does not provide information about the date of the next AI Engineering cohort.
